@@ -1,0 +1,43 @@
+ To list the files:
+
+# ls -al
+
+drwxr-xr-x 2 root root  19 May  5 04:00 .
+dr-xr-x--- 4 root root 139 May  5 03:54 ..
+-rw-r--r-- 1 root root   0 May  5 04:00 file1
+
+
+Here : 
+
+d = directory
+- = in the beginning indicates it is a file
+
+. = current directory
+.. = parent directory
+
+0 = size of the file in bytes
+
+root = user that created the file or directory
+
+root = group name that user is part of
+
+Rw-r--r– : permissions of the file
+
+
+
+In linux every file or directory have permissions as 👍
+
+r = Read permissions
+w = write
+x = Execute permission
+- = No permission
+
+There are 3 types of users to whom we give the permissions:
+
+U -> file user/owner
+G -> group user
+o -> other users on the linux server
+a -> all the users
+
+Break down the permission in to 3 parts:
+
